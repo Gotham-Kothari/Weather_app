@@ -5,7 +5,6 @@ window.addEventListener("DOMContentLoaded", () => {
     const searchBtn = document.getElementById("search-btn");
 
     const cityName = document.getElementById("city-name");
-    const timezone = document.getElementById("time-zone");
     const temperature = document.getElementById("temperature");
     const tempIcon = document.querySelector(".temp-icon img"); //temperature icon
 
@@ -40,7 +39,7 @@ window.addEventListener("DOMContentLoaded", () => {
         .then(data => {
             cityName.innerText = data.name;
             temperature.innerText = Math.round(data.main.temp);
-            hmdValue.innerText = `${data.main.humidity}`;
+            hmdValue.innerText = data.main.humidity;
             value.innerText = data.wind.speed;
             chances.innerText = data.clouds.all;
             level.innerText = data.main.feels_like;
