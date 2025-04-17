@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "style.css">
+    <title>Weather-App</title>
+</head>
+<body>
+    <div class = "container">
+        <div class = "app">
+            <h1 id = "title"> The Weather</h1>
+            <div class = "input-area">
+                <input type = "text" id = "input-bar" placeholder = "Enter city">
+                <button id = "search-btn"> Search </button>
+            </div>
+            <div class = "display-area">
+                <div class = "upper-display-region">
+                    <div class = "city-stats">
+                        <div class = "city"><span id = "city-name">Chennai</span></div>
+                        <div class = "temp"><span id = "temperature">36</span></div>
+                    </div>
+                    <div class = "temp-icon">
+                        <img src = "./icons/weather-partly-cloudy-day-svgrepo-com.svg" width = "120">
+                    </div>
+                </div>
+                <div class = "stats-grid">
+                    <div class = "square">
+                        <div class = "weather-icon" id = "uv-icon">
+                            <img src = "./icons/sun-74.svg" width = "75">
+                        </div>
+                        <div class = "feels-like">
+                            <div id = "feels-like-text">Feels Like:</div>
+                            <div id = "level">39</div>
+                        </div>
+                    </div>
+                    <div class = "square1">
+                        <div class = "weather-icon" id = "wind-icon">
+                            <img src = "./icons/wind-icon.svg" width = "50">
+                        </div>
+                        <div class = "wind-text">
+                            <div id = "wind-speed">Wind Speed:</div>
+                            <div id = "value"> 8 </div>
+                            <div id = "unit"> km/h</div>
+                        </div>
+                    </div>
+                    <div class = "square1">
+                        <div class = "weather-icon" id = "rain-icon">
+                            <img src = "./icons/rain-23.svg" width = "50">
+                        </div>
+                        <div class = "rain-text">
+                            <div id = "Rain"> Rain:</div>
+                            <div id = "chances">34</div>
+                        </div>
+                    </div>
+                    <div class = "square1">
+                        <div class = "weather-icon"id = "humidity-icon">
+                            <img src = "./icons/humidity.svg" width = "50">
+                        </div>
+                        <div class = "humidity-text">
+                            <div id = "Humidity"> Humidity:</div>
+                            <div id = "hmd-value">56</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src = "renderer.js"></script>
+    </div>
+</body>
+</html>
