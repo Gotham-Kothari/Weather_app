@@ -46,7 +46,10 @@ This is a desktop Weather App built using **Electron.js**, HTML, CSS, and JavaSc
    ```
 
 ---
+**The App:**
+![Uploading image.png…]()
 
+---
 ## 🔐 API Setup
 
 This app uses the **OpenWeatherMap API**. To make it work:
