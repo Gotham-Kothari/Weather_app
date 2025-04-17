@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/972b4cb9-2b0a-4a7e-b750-3cf6e3c95d18)# 🌦️ Weather App (Electron.js)
+# 🌦️ Weather App (Electron.js)
 
 This is a desktop Weather App built using **Electron.js**, HTML, CSS, and JavaScript. It fetches real-time weather data from the **OpenWeatherMap API** and displays it in a clean, interactive UI.
 
@@ -26,44 +26,8 @@ This is a desktop Weather App built using **Electron.js**, HTML, CSS, and JavaSc
 - OpenWeatherMap API
 
 ---
-
-## 🚀 Getting Started
-
-1. **Clone the repository**  
-   ```bash
-   git clone https://github.com/your-username/weather-app
-   cd weather-app
-   ```
-
-2. **Install dependencies**  
-   ```bash
-   npm install
-   ```
-
-3. **Run the app**  
-   ```bash
-   npx electron .
-   ```
-
----
 **The App:**
 ![image](https://github.com/user-attachments/assets/a2d54bf2-4810-4caf-a846-329c7a882354)
-
----
-## 🔐 API Setup
-
-This app uses the **OpenWeatherMap API**. To make it work:
-
-1. Sign up at [https://openweathermap.org](https://openweathermap.org)
-2. Get your free API key
-3. Replace the API key inside `config.js`:
-
-```js
-const config = {
-  OPENWEATHER_API_KEY: 'YOUR_API_KEY_HERE',
-  ...
-};
-```
 
 ---
 
@@ -80,10 +44,6 @@ const config = {
 ```
 
 ---
-
-## 📝 License
-
-MIT License. Use freely and contribute back!
 
 ---
 
