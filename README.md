@@ -1,4 +1,4 @@
-# 🌦️ Weather App (Electron.js)
+# 🌦️ Weather App
 
 This is a desktop Weather App built using **Electron.js**, HTML, CSS, and JavaScript. It fetches real-time weather data from the **OpenWeatherMap API** and displays it in a clean, interactive UI.
 
